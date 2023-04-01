@@ -7,3 +7,4 @@ Pt1000) přímým měřením odporu pomocí multimetru Keysight 34450A v
 zapojení čtyřvodičovém (Pracoviště 7)
 
 ## FlowChart
+Flowchart bude udelan v drawio

@@ -14,6 +14,7 @@
 		<Item Name="src" Type="Folder">
 			<Item Name="main.vi" Type="VI" URL="../src/main.vi"/>
 			<Item Name="State_control.ctl" Type="VI" URL="../src/State_control.ctl"/>
+			<Item Name="Voltage2Temperature.vi" Type="VI" URL="../src/Voltage2Temperature.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">

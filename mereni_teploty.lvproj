@@ -11,14 +11,15 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="controls" Type="Folder">
+			<Item Name="Data.ctl" Type="VI" URL="../controls/Data.ctl"/>
+			<Item Name="State_control.ctl" Type="VI" URL="../controls/State_control.ctl"/>
+			<Item Name="Thermocouple_type.ctl" Type="VI" URL="../controls/Thermocouple_type.ctl"/>
+		</Item>
 		<Item Name="src" Type="Folder">
 			<Item Name="main.vi" Type="VI" URL="../src/main.vi"/>
-			<Item Name="State_control.ctl" Type="VI" URL="../src/State_control.ctl"/>
 			<Item Name="Voltage2Temperature.vi" Type="VI" URL="../src/Voltage2Temperature.vi"/>
 		</Item>
-		<Item Name="Data.ctl" Type="VI" URL="../src/Data.ctl"/>
-		<Item Name="Thermocouple_type.ctl" Type="VI" URL="../src/Thermocouple_type.ctl"/>
-		<Item Name="Thermocouple_type1.ctl" Type="VI" URL="../src/Thermocouple_type1.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>

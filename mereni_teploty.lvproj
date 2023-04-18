@@ -16,12 +16,14 @@
 			<Item Name="State_control.ctl" Type="VI" URL="../src/State_control.ctl"/>
 			<Item Name="Voltage2Temperature.vi" Type="VI" URL="../src/Voltage2Temperature.vi"/>
 		</Item>
+		<Item Name="Data.ctl" Type="VI" URL="../src/Data.ctl"/>
+		<Item Name="Thermocouple_type.ctl" Type="VI" URL="../src/Thermocouple_type.ctl"/>
+		<Item Name="Thermocouple_type1.ctl" Type="VI" URL="../src/Thermocouple_type1.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
-				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
-				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

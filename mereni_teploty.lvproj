@@ -18,8 +18,10 @@
 		</Item>
 		<Item Name="src" Type="Folder">
 			<Item Name="main.vi" Type="VI" URL="../src/main.vi"/>
+			<Item Name="Resistance2Temperature.vi" Type="VI" URL="../src/Resistance2Temperature.vi"/>
 			<Item Name="Voltage2Temperature.vi" Type="VI" URL="../src/Voltage2Temperature.vi"/>
 		</Item>
+		<Item Name="Pt_type.ctl" Type="VI" URL="../controls/Pt_type.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>

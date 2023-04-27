@@ -20,6 +20,7 @@
 		<Item Name="src" Type="Folder">
 			<Item Name="main.vi" Type="VI" URL="../src/main.vi"/>
 			<Item Name="Resistance2Temperature.vi" Type="VI" URL="../src/Resistance2Temperature.vi"/>
+			<Item Name="table_v2.vi" Type="VI" URL="../src/table_v2.vi"/>
 			<Item Name="Voltage2Temperature.vi" Type="VI" URL="../src/Voltage2Temperature.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
